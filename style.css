@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body{
+    background-color: #f5f7fb;
+    color: #222;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+#links{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+#logo{
+    color: #0b5394;
+    font-size: large;
+    font-weight: bold;
+}
+#links li a{
+    text-decoration: none;
+    color: #0b5394;
+}
+
+/* LOGIN */
+
+.login{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    
+}
+
+.login form p{
+    text-align: center;
+    color: red;
+}
+.name{
+    display: flex;
+    gap: 5px;
+}
+.contact{
+    display: flex;
+    gap: 5px;
+}
+#address{
+    width: 100%;
+}
+#pswrd{
+    width: 100%;
+}
+.btn{
+    display: flex;
+    justify-self: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+.btn button{
+    padding: 5px 8px;
+}
