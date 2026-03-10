@@ -19,40 +19,43 @@
         </ul>
     </nav>
     <section class="login">
-        <form action="">
-            <div class="name">
-                <div class="">
-                    <label for="first-name">First Name</label><br />
-                    <input type="text" id="first-name" />
+        <div>
+            <div class="head">LOGIN</div>
+            <div class="form">
+                <div class="name">
+                    <div class="">
+                        <label for="first-name">First Name</label><br />
+                        <input type="text" id="first-name" class="input" />
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label><br />
+                        <input type="text" id="last-name" class="input"/>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div>
+                        <label for="email">Email</label><br />
+                        <input type="email" id="email" class="input"/>
+                    </div>
+                    <div>
+                        <label for="mob">Mobile No.</label><br />
+                        <input type="number" id="mob" class="input"/>
+                    </div>
                 </div>
                 <div>
-                    <label for="last-name">Last Name</label><br />
-                    <input type="text" id="last-name" />
+                    <label for="address">Address</label><br />
+                    <input type="text-area" id="address" class="input"/>
                 </div>
-            </div>
-            <div class="contact">
-                <div>
-                    <label for="email">Email</label><br />
-                    <input type="email" id="email" />
+                <div class="password">
+                    <label for="pswrd">Enter Password</label><br />
+                    <input type="password" id="pswrd" class="input"/>
                 </div>
-                <div>
-                    <label for="mob">Mobile No.</label><br />
-                    <input type="number" id="mob" />
+                <p id="para"></p>
+                <div class="btn">
+                    <button id="show" type="button">Show Password</button>
+                    <button id="submit">Submit</button>
                 </div>
-            </div>
-            <div>
-                <label for="address">Address</label><br />
-                <input type="text-area" id="address" />
-            </div>
-            <div class="password">
-                <label for="pswrd">Enter Password</label><br />
-                <input type="password" id="pswrd" />
-            </div>
-            <p id="para"></p>
-            <div class="btn">
-                <button id="show" type="button">Show Password</button>
-                <button id="submit">Submit</button>
-            </div>
+        </div>
         </form>
     </section>
 
