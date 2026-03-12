@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div id="logo">Company</div>
         <ul id="links">
@@ -18,47 +22,85 @@
             <li><a href="#">Login</a></li>
         </ul>
     </nav>
-    <section class="login">
-        <div>
-            <div class="head">LOGIN</div>
-            <div class="form">
-                <div class="name">
-                    <div class="">
-                        <label for="first-name">First Name</label><br />
-                        <input type="text" id="first-name" class="input" />
-                    </div>
-                    <div>
-                        <label for="last-name">Last Name</label><br />
-                        <input type="text" id="last-name" class="input"/>
-                    </div>
-                </div>
-                <div class="contact">
-                    <div>
-                        <label for="email">Email</label><br />
-                        <input type="email" id="email" class="input"/>
-                    </div>
-                    <div>
-                        <label for="mob">Mobile No.</label><br />
-                        <input type="number" id="mob" class="input"/>
-                    </div>
-                </div>
-                <div>
-                    <label for="address">Address</label><br />
-                    <input type="text-area" id="address" class="input"/>
-                </div>
-                <div class="password">
-                    <label for="pswrd">Enter Password</label><br />
-                    <input type="password" id="pswrd" class="input"/>
-                </div>
-                <p id="para"></p>
-                <div class="btn">
-                    <button id="show" type="button">Show Password</button>
-                    <button id="submit">Submit</button>
-                </div>
+<!-- HERO SECTION -->
+    <section class="hero">
+        <div class="text">
+            <h1>Ye Kya Bak Rahe Ho ...</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quo blanditiis, autem iure qui
+                praesentium ducimus atque quam. Ut eaque tempora magni dicta totam laudantium? Veritatis nam asperiores
+                aut pariatur?</p>
         </div>
-        </form>
+        <div class="img">
+            <img src="https://i.pinimg.com/736x/4a/a3/6f/4aa36f4b84940489c3f49153e3c3289c.jpg" alt="" id="image">
+            <button id="img-btn"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
     </section>
-
+    <!-- MAIN SECTION -->
+    <section class="main">
+        <div class="login">
+            <div>
+                <div class="head">LOGIN</div>
+                <div class="form">
+                    <div class="name">
+                        <div class="">
+                            <label for="first-name">First Name</label><br />
+                            <input type="text" id="first-name" class="input" />
+                        </div>
+                        <div>
+                            <label for="last-name">Last Name</label><br />
+                            <input type="text" id="last-name" class="input" />
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div>
+                            <label for="email">Email</label><br />
+                            <input type="email" id="email" class="input" />
+                        </div>
+                        <div>
+                            <label for="mob">Mobile No.</label><br />
+                            <input type="number" id="mob" class="input" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="address">Address</label><br />
+                        <input type="text-area" id="address" class="input" />
+                    </div>
+                    <div class="password">
+                        <label for="pswrd">Enter Password</label><br />
+                        <input type="password" id="pswrd" class="input" />
+                    </div>
+                    <p id="para"></p>
+                    <div class="btn">
+                        <button id="show" type="button">Show Password</button>
+                        <button id="submit">Submit</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="left-card">
+                <div class="card1 card">
+                    <h4>heading</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, atque.</p>
+                </div>
+                <div class="card2 card">
+                    <h4>heading</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, atque.</p>
+                </div>
+            </div>
+            <div class="right-card">
+                <div class="card3 card">
+                    <h4>heading</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, atque.</p>
+                </div>
+                <div class="card4 card">
+                    <h4>heading</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, atque.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="app.js"></script>
 </body>
 

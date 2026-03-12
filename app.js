@@ -34,3 +34,20 @@ submitBtn.addEventListener("click", (e) => {
         },2000)
     }
 })
+
+const imgBtn = document.querySelector("#img-btn");
+const image = document.querySelector("#image");
+let currImg = "img1";
+imgBtn.addEventListener("click",changeImage);
+
+
+function changeImage(){
+    if(currImg == "img1"){
+        image.src = "https://i.pinimg.com/736x/36/bc/e8/36bce85074c631139046d06d43d18a1e.jpg";
+        currImg = "img2";
+    }
+    else {
+        image.src="https://i.pinimg.com/736x/4a/a3/6f/4aa36f4b84940489c3f49153e3c3289c.jpg";
+        currImg = "img1";
+    }
+}
